@@ -1,37 +1,74 @@
 #titulo_primeiro {
     color: rgb(255, 255, 255);
-    background-color: #8B6F1E;;
-}
-.titulo_segundo {
-    color: rgb(255, 255, 255);
-    background-color:#2F4F2F;;
-}
-.titulo_terceiro {
-    color: rgb(255, 255, 255);
-    background-color: #2F4F2F;;
-}
-.titulo_quarto {
-    color: rgb(255, 255, 255);
-    background-color: #2F4F2F;;
-}
-.titulo_quinto {
-    color: rgb(255, 255, 255);
-    background-color: #2F4F2F;;;
-}
-.titulo_sexto {
-    color: rgb(255, 255, 255);
-    background-color: #2F4F2F;;
-}
-.titulo_setimo {
-    color: rgb(255, 255, 255);
-    background-color: #2F4F2F;;
-}
-.titulo_oitavo{
-    color: rgb(255, 255, 255);
-    background-color: #2F4F2F;;
+    background-color: #8B6F1E;
+    ;
 }
 
-#Titulo_1{
+.titulo_segundo {
     color: rgb(255, 255, 255);
-    background-color: #2F4F2F;;
+    background-color: #2F4F2F;
+    ;
+}
+
+.titulo_terceiro {
+    color: rgb(255, 255, 255);
+    background-color: #2F4F2F;
+    ;
+}
+
+.titulo_quarto {
+    color: rgb(255, 255, 255);
+    background-color: #2F4F2F;
+    ;
+}
+
+.titulo_quinto {
+    color: rgb(255, 255, 255);
+    background-color: #2F4F2F;
+    ;
+    ;
+}
+
+.titulo_sexto {
+    color: rgb(255, 255, 255);
+    background-color: #2F4F2F;
+    ;
+}
+
+.titulo_setimo {
+    color: rgb(255, 255, 255);
+    background-color: #2F4F2F;
+    ;
+}
+
+.titulo_oitavo {
+    color: rgb(255, 255, 255);
+    background-color: #2F4F2F;
+    ;
+}
+
+.titulo_nono {
+    color: rgb(255, 255, 255);
+    background-color: #2F4F2F;
+    ;
+}
+
+.titulo_decimo {
+    color: rgb(255, 255, 255);
+    background-color: #2F4F2F;
+    ;
+}
+
+#Titulo_1 {
+    color: rgb(255, 255, 255);
+    background-color: #2F4F2F;
+    ;
+}
+
+#layout {
+    display: flex;
+}
+
+.rodape {
+    text-align: center;
 }
