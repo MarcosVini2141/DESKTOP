@@ -47,25 +47,25 @@
         <fieldset>
 
             <legend>Qual é sua Raça?</legend>
-            <input type="radio" name="Raça" id="Humano" value="Humano"><label for="Humano">Humano</label>
+            <input type="radio" name="raca" id="Humano" value="Humano" required><label for="Humano">Humano</label>
 
-            <input checked type="radio" name="Raça" id="Elfo" value="Elfo"><label for="Elfo">Elfo</label>
+            <input type="radio" name="raca" id="Elfo" value="Elfo"><label for="Elfo">Elfo</label>
 
-            <input type="radio" name="Raça" id="Anão" value="Anão"><label for="Anão">Anão</label>
+            <input type="radio" name="raca" id="Anao" value="Anao"><label for="Anao">Anão</label>
 
-            <input type="radio" name="Raça" id="Hobbit" value="Hobbit"><label for="Hobbit">Hobbit</label>
+            <input type="radio" name="raca" id="Hobbit" value="Hobbit"><label for="Hobbit">Hobbit</label>
 
         </fieldset><br>
 
         <label>Escolha seu Filme favorito:</label>
-        <select id="lista_suspensa" name="lista">
+        <select id="filme_favorito" name="filme">
             <option value="A Sociedade do Anel">A Sociedade do Anel</option>
             <option value="As Duas Torres">As Duas Torres</option>
             <option value="O Retorno do Rei">O Retorno do Rei</option>
         </select><br><br>
 
         <label>Escolha um local da Terra Média:</label>
-        <select id="lista_suspensa" name="lista">
+        <select id="lista_suspensa" name="local">
             <optgroup label="Reinos dos Homens">
                 <option value="Gondor">Gondor</option>
                 <option value="Rohan">Rohan</option>
@@ -85,17 +85,17 @@
         <fieldset>
             <legend>Suas Habilidades</legend>
             <label><input type="checkbox" name="Espada" value="Espada">Espada</label>
-            <label><input type="checkbox" name="Arco e Flecha" value="Arco e Flecha">Arco e Flecha</label>
+            <label><input type="checkbox" name="Arco_e_Flecha" value="Arco e Flecha">Arco e Flecha</label>
             <label><input type="checkbox" name="Magia" value="Magia">Magia</label>
-            <label><input type="checkbox" name="Furtividade Hobbit" value="Furtividade Hobbit">Furtividade
+            <label><input type="checkbox" name="Furtividade_Hobbit" value="Furtividade Hobbit">Furtividade
                 Hobbit</label>
         </fieldset><br>
 
-        <label for="Nivel">Nivel de coragem(1 a 10):</label>
-        <input type="range" max="10" min="1" id="Nivel" name="Nivel"><br><br>
+        <label for="nivel">Nivel de coragem(1 a 10):</label>
+        <input type="range" max="10" min="1" id="Nivel" name="nivel"><br><br>
 
         <label>Seu reino de Origem:</label>
-        <input type="text" id="busca_datalist" list="origem">
+        <input type="text" id="busca_datalist" list="origem" name="origem">
         <datalist id="origem">
             <option>Gondor</option>
             <option>Rohan</option>
@@ -118,7 +118,7 @@
 
         <button type="reset">Apagar Pergaminho</button>
         <button type="submit">Enviar para Valfenda</button>
-
+    </form>
 
 </body>
 
